@@ -1,12 +1,16 @@
 import random
 
+f = open("quotes.txt", "a")
+f.write("I'm adding this quote with computer magic")
+f.write("\n")
+f.close()
+
 def primary():
-   # print("Keep it logically awesome.")
    for i in range(5):
       f = open("quotes.txt")
       quotes = f.readlines()
       f.close()
-      last = 15
+      last = 16
       rnd = random.randint(0, last)
       print(quotes[rnd], end='')
 

@@ -14,3 +14,4 @@ Design for failure
 Keep it logically awesome
 This is another quote
 This is not another quote
+I'm adding this quote with computer magic
